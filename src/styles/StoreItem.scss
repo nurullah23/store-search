@@ -1,0 +1,27 @@
+.store-item {
+    height: 310px;
+    text-align: left;
+    font-size: 20px;
+    position: relative;
+
+    img {
+        display: inline-block;
+        border-radius: 10px;
+    }
+
+    .item-data {
+        display: inline-block;
+        margin: 20px;
+        position: absolute;
+        width: 80%;
+        
+        td {
+            font-size: 20px;
+            vertical-align: top;
+        
+            &:first-child {
+                color: rgb(240, 156, 0);
+            }
+        }
+    }
+}
